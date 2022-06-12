@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="js6.css" />
+  </head>
+  <body>
+    <div id="container">
+      <input placeholder="ad" type="text" id="ad" />
+      <input placeholder="soyad" type="text" id="soyad" />
+      <input placeholder="ders" type="text" id="ders" />
+      <input placeholder="il" type="text" id="il" />
+      <button id="qeydet" data-randomid="">+</button>
+
+      <div id="melumatlar"></div>
+
+      <table class="gizlet">
+        <thead class="mavi-basliq">
+          <tr>
+            <th id="ad-sutunu" data-prop="ad">ad</th>
+            <th id="soyad-sutunu" data-prop="soyad">soyad</th>
+            <th id="ders-sutunu" data-prop="ders">ders</th>
+            <th id="il-sutunu" data-prop="il">il</th>
+            <th>sil</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <input id="axtar" placeholder="axtar" style="margin-top: 30px" />
+    <script src="data.js"></script>
+    <script src="js6.js"></script>
+  </body>
+</html>
